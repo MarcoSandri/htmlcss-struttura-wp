@@ -16,39 +16,39 @@ header {
 }
 
 /* Stile prima sezione della pagina */
-.first {
+.banner {
     height: 25rem;
     background-color: #E1D67A;
     margin: 1.5rem 0;
 }
 
 /* Stile seconda sezione della pagina */
-.second {
+.content {
     height: 35rem;
     background-color: #008CFE;
     margin-bottom: 0.5rem;
 }
 
 /* Seconda sezione della pagina - parte in alto */
-.second .top {
+.content .top {
     height: 10%;
     background-color: #ABCFE7;
 }
 
 /* Seconda sezione della pagina - parte in basso principale */
-.second .bottom {
+.content .bottom {
     height: calc(90% - 2rem);
     margin: 1rem 0;
 }
 
-.second .bottom .left, .second .bottom .right {
+.content .bottom .left, .content .bottom .right {
     height: 100%;
     width: 25%;
     background-color: #ABCFE7;
     float:left
 }
 
-.second .bottom .center {
+.content .bottom .center {
     height: 100%;
     width: calc(50% - 2rem);
     background-color: #ABCFE7;
